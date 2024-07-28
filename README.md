@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isFloat32MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32matrix-like@esm/index.mjs';
+import isFloat32MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32matrix-like@v0.2.2-esm/index.mjs';
 ```
 
 #### isFloat32MatrixLike( value )
@@ -77,7 +77,7 @@ var bool = isFloat32MatrixLike( arr );
 
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import isFloat32MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32matrix-like@esm/index.mjs';
+import isFloat32MatrixLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-float32matrix-like@v0.2.2-esm/index.mjs';
 
 var buffer = new Float32Array( [ 0, 0, 0, 0 ] );
 var arr = ndarray( 'float32', buffer, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
